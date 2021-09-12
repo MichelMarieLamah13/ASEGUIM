@@ -1,0 +1,43 @@
+ctrl+u:pour prendre le code source de bootstrap
+
+Pour changer le port du projet:
+cd C:\wamp64\www\Reseau_social
+dir
+php -S localhost:8000
+oubien créer un alias pour cette commande: alias phps=php -S localhost:8000
+NB: il ne faut pas fermer le terminal si tu veux que ça fonctionne,
+faire aussi ctrl+T pour ouvrir un nouveau terminal
+
+BASE DE DONNEE:
+Connexion: mysql -u root
+Afficher ensemble des bds: show databases;
+Pour créer un bd: create database boom_social_network
+
+
+Pour changer l'url d'acces à la bd:
+C:\wamp64\alias et changer l'alias: Alias /pma "c:/wamp64/apps/phpmyadmin4.8.4/"
+
+LES LIENS BOOTSTRAP
+https://bootswatch.com/
+https://www.bootstrapcdn.com/
+https://bootstrapdocs.com : Pour se placer dans une version de bootstrap pour pouvoir copier les thèmes
+
+Si ton thème ne change pas: shift+refresh , pour vider le cash
+
+ctrl+alt+L: Pour auto indenter
+alt+J: selection l'occurrence suivante
+shift+f5: pour rafraichir en vidant le cache
+
+https://github.com/google/code-prettify
+
+https://www.favicon-generator.org/
+
+LIBRAIRIES:
+parsleyJs
+flagicon
+timeago
+faker
+uploadify
+Alertify
+SweetAlert
+
